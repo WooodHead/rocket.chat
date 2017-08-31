@@ -14,6 +14,13 @@
     background: #13679a;
 }
 
+.section1 {
+    background-image: url(./assets/img/bg_launch.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
 .section6 {
     background: #31c685;
 }
