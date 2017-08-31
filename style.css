@@ -1,0 +1,27 @@
+* {
+    outline: 1px solid #bbb;
+}
+
+.sprite {
+    background-image: url(https://cdn-www.rocket.chat/img/sprite@2x.png);
+    background-size: 870px 330px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.img-bme {
+    background: #13679a;
+}
+
+.section6 {
+    background: #31c685;
+}
+
+.section7 {
+    background: #333;
+}
+
+.section8 {
+    background: #222;
+}
