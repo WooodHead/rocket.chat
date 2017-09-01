@@ -21,6 +21,24 @@
     height: 100vh;
 }
 
+.section1 .navbar-brand{
+    background-size: 100% 100%;
+    width:100px;
+
+}
+
+.section1 .navbar{
+    background:transparent;
+}
+
+.section1 
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>.active>a:focus,
+{
+    color:#FFF;
+    
+}
+
+
 .section6 {
     background: #31c685;
 }
