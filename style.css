@@ -1,5 +1,10 @@
 * {
     outline: 1px solid #bbb;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
 }
 
 .sprite {
@@ -19,25 +24,62 @@
     background-size: cover;
     width: 100%;
     height: 100vh;
+    /* height: 100%; */
+    background-position: center;
 }
 
-.section1 .navbar-brand{
+.section1 .navbar {
+    margin: 40px 0;
+}
+
+.section1 .navbar-brand {
     background-size: 100% 100%;
-    width:100px;
-
+    width: 100px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-.section1 .navbar{
-    background:transparent;
+.section1 .navbar {
+    background: transparent;
 }
 
-.section1 
-.navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>.active>a:focus,
-{
-    color:#FFF;
-    
+.section1 .navbar-nav>li>a {
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
 }
 
+.section1 .navbar-default .navbar-nav>li>a:focus,
+.section1 .navbar-default .navbar-nav>li>a:hover {
+    color: #FFF;
+    border-bottom: 2px solid #FFF;
+}
+
+.section1 .slogon {
+    text-align: center;
+    top: 40%;
+    position: relative;
+}
+
+.section1 h1,
+.section1 h2,
+.section1 p {
+    color: #FFF;
+}
+
+.section1 h1 {
+    font-weight: 100;
+    font-size: 60px;
+}
+
+.section1 h2 {
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.section1 p {
+    font-size: 25px;
+}
 
 .section6 {
     background: #31c685;
